@@ -1,0 +1,23 @@
+/*
+	Author: Alyssa Yochelson
+	Date: 11/20/2020
+*/
+.links {float: left; margin: 15px 15px 15px 15px}
+.links a:link {color: black}
+.links a:hover {color: gray}
+.links a:visited {color: gray}
+.links ul {list-style-type: none}
+.url a {color: white}
+.url th {width: 200px}
+.pagelink a:link {color: black}
+.pagelink a:hover {color: gray}
+.pagelink a:visited {color: black}
+.list {list-style-type: square}
+
+.body {margin-left: 220px}
+
+body {background-color: rgb(218, 222, 232); font-family: Arial, Helvetica, sans-serif;}
+h2 {text-align: center; background-color: white; color: rgb(124, 151, 161); font-family: Arial, Helvetica, sans-serif}
+p {line-height: 1.5}
+.links a {background-color: white; margin: 5px; padding: 5px; width: 150px; display: block; text-decoration: none}
+135, 139, 150

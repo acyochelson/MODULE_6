@@ -75,6 +75,15 @@ header::before {
 
 /* Projects */
 
+.project-item {
+    display: flow-root;
+}
+.project-item img {
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+}
+
 /* Work Experience */
 
 /* Education */
