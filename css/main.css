@@ -2,15 +2,17 @@
 COLOR PALETTE
 Light Grey: #f3f4f7
 Medium Grey: #d2d7df
+Silver: #C5CDCF
 Dark Cyan: #369696
-Vista Blue: #8BA4D0
 Space Cadet: #2b2d42
+Xanthous: #F0B404
 */
 
 /* GLOBAL STYLES */
 
 html {
     box-sizing: border-box;
+    font-size: 62.5%;
   }
   *, *:before, *:after {
     box-sizing: inherit;
@@ -21,44 +23,89 @@ html, body {
 body {
     background: #f3f4f7;
     margin: 0;
+    font-family: "Urbanist", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.45rem;
+    line-height: 1.4;
 }
-
-/* Links */
-
-a {
-    color: #369696;
+h1, h2, h3 {
+    font-family: "Grandstander", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin: 0;
 }
-a:hover {
-    color: #8BA4D0;
-    text-decoration: none;
+h1 {
+    font-size: 4rem;
+    line-height: 1.5;
+    text-shadow: 3.5px 3.5px 3px #C5CDCF;
 }
-footer a {
-    color: #8BA4D0;
+h2 {
+    font-size: 2.4rem;
 }
-footer a:hover {
-    color: #369696;
+h3 {
+    font-size: 1.8rem;
 }
-.btn {
-    background: #369696;
-    color: #f3f4f7ff;
-    text-decoration: none;
+.project-item p {
+    margin-top: 3px;
 }
-.btn:hover {
-    color: #f3f4f7ff;
-}
-
 .content-wrapper {
     margin: 0 auto;
-    padding: 30px;
-    max-width: 1100px;
+    padding: 25px;
+    max-width: 1050px;
 }
-
+.projects {
+    padding-top: 0;
+}
 header::before {
     background: url(../images/joanna-kosinska-unsplash.jpg) center;
     background-size: cover;
     content: "";
     display: block;
     height: 300px;
+    margin-bottom: 30px;
+}
+/* Links */
+
+a {
+    color: #369696;
+}
+a:hover {
+    color: #C5CDCF;
+    text-decoration: none;
+}
+footer a {
+    color: #C5CDCF;
+}
+footer a:hover {
+    color: #369696;
+}
+.btn {
+    background: #F0B404;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    display: inline-block;
+    padding: 7px;
+    letter-spacing: .1em;
+    line-height: 1;
+    border-radius: 4px;
+}
+.btn:hover {
+    color: #313131;
+}
+.download-link {
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    font-size: 1.4rem;
+    background-color: #369696;
+}
+.download-link:hover {
+    color: #C5CDCF;
 }
 
 /* HOME */
@@ -70,6 +117,12 @@ header::before {
 .home .content-wrapper {
     background: rgb(255 255 255 / 0.7);
 }
+.main-section {
+    margin-bottom: 50px;
+}
+.main-section h2 {
+    border-bottom: 2px dashed #C5CDCF;
+}
 
 /* About */
 
@@ -77,7 +130,7 @@ header::before {
 
 .project-item {
     display: flow-root;
-    margin: 30px 0;
+    margin: 40px 0;
 }
 .project-item img {
     width: 300px;
@@ -87,13 +140,24 @@ header::before {
 
 /* Work Experience */
 
+.work-item {
+    margin: 30px 0;
+}
+
 /* Education */
+
+.education-item {
+    margin: 30px 0;
+}
+.education-item p{
+    margin: 0;
+}
 
 /* FOOTER */
 
 footer {
     background: #2b2d42ff;
-    color: #d2d7dfff;
+    color: #C5CDCF;
 }
 .socials {
     list-style-type: none;

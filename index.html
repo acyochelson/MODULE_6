@@ -4,24 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alyssa Yochelson | Advertising and Graphic Design Student</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body class="home">
-  <div class="content-wrapper">  
+    <a href="#" class="btn download-link">Download PDF</a>
     <main>
+      <!-- <div class="content-wrapper"> -->
       <!-- ***********************  ABOUT / PROFILE  *********************** -->
       <header>
-        
-          <h1>Alyssa Yochelson</h1>
-          <h2>Advertising and Graphic Design Student</h2>
-
-          <p>Hi, I am an Advertising and Graphic Design Student at Wake Tech Community College. I am currently taking Web Design to build on my coding skills and general design abilities. I have previous experience with HTML and CSS, and feel comfortable creating basic website designs.</p>
-        
+        <div class="content-wrapper header">
+            <h1>Alyssa Yochelson</h1>
+            <h2>Advertising and Graphic Design Student</h2>
+            <p>
+            Hi, I am an Advertising and Graphic Design Student at Wake Tech Community College. I am currently taking Web Design to build on my coding skills and general design abilities. I have previous experience with HTML and CSS, and feel comfortable creating basic website designs.
+            </p>
+        </div>
       </header>
-
       <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
-      
-        <section>
+      <div class="content-wrapper projects">
+        <section class="main-section">
           <h2>Featured Projects</h2>
           <p>View selected projects below. More information can be found at <a href="#">alyssayochelson.com</a>.</p>
 
@@ -38,34 +45,33 @@
             <img src="images/london-600px.jpg" srcset="images/london-1200px.jpg 2x" alt="London International Website Screenshot">
             <h3>London International Website</h3>
             <p>
-              The London International Website was an assignment for my Junior year EComm class in high school to design a website to help people plan a trip for a city abroad. I chose London as my city and included information on the site such as hotels to book, transportation options, places to visit, and more. I also included an FAQ page and an interactive photo gallery.
+              The London International Website was an assignment for my junior year high school EComm class to design a website to help people plan a trip for a city abroad. I chose London as my city and included information on the site such as hotels to book, transportation options, places to visit, and more. I also included an FAQ page and an interactive photo gallery.
             </p>
             <p>
               Note: Because this was a high school project, images are not CC0 and most likely infringe on copyright.
             </p>
-            <a href="https://wcet.waketech.edu/acyochelson/WEB210/MODULE_4/london/index.html" target="_blank" class="btn">View project</a>
+            <a href="https://wcet.waketech.edu/acyochelson/WEB210/MODULE_4/london/index.htm" target="_blank" class="btn">View project</a>
           </section>
           <section class="project-item">
             <img src="images/knitting-600px.jpg" srcset="images/knitting-1200px.jpg 2x" alt="The Knitting Corner Website Screenshot">
             <h3>The Knitting Corner</h3>
             <p>
-              The Knitting Corner was my capstone project for my Junior year EComm class in high school. The assignment was to make a fake E-Commerce website, and I chose to make mine for selling knitting and crochet supplies. The site contains several pages including a "Catalog" page that can be used to navigate all of the products on the site, and product-description pages with drop-down lists for selecting quantity and type.
+              The Knitting Corner was my capstone project for my junior year high school EComm class. The assignment was to make a fake E-Commerce website, and I chose to make mine to sell knitting and crochet supplies. The site contains several pages including a "Catalog" page that can navigate through all of the products on the site, and product-description pages with drop-down lists for selecting quantity and type.
             </p>
             <p>
               Note: Because this was a high school project, images are not CC0 and most likely infringe on copyright.
             </p>
-            <a href="https://wcet.waketech.edu/acyochelson/WEB210/MODULE_4/knitting/index.html" target="_blank" class="btn">View project</a>
+            <a href="https://wcet.waketech.edu/acyochelson/WEB210/MODULE_4/knitting/index.htm" target="_blank" class="btn">View project</a>
           </section>
           <!-- End of Project block. -->
         </section>
-
         <!-- ***********************  WORK EXPERIENCE  *********************** -->
-        <section>
+        <section class="main-section">
           <h2>Work Experience</h2>
           <!-- <p>Optional paragraph for work experience summary. Not a part of the job details. Delete if not being used.</p> -->
 
           <!-- Copy this whole <section> block to add more jobs. -->
-          <section>
+          <section class="work-item">
             <h3>Host</h3>
             <p>Chili's Grill and Bar</p>
             <p>July 2021 - November 2022</p>
@@ -78,11 +84,11 @@
               <li>Responsible for...</li>
             </ul> -->
           </section>
-          <section>
+          <section class="work-item">
             <h3>Pet Sitter</h3>
             <p>Rover</p>
             <p>September 2023 - Present</p>
-            <p>As a pet sitter for Rover I watch client's pets while they're away and take care of everything to keep them healthy and happy. Walks, feeding, playtime, and more are included in my services.</p>
+            <p>As a pet sitter for Rover I watch clients' pets while they're away and take care of everything to keep them healthy and happy. Walks, feeding, playtime, and more are included in my services.</p>
             <!-- <p>Optional list:</p>
             <ul>
               <li>Delete this list if you don't need it.</li>
@@ -95,11 +101,11 @@
         </section>
 
         <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
-        <section>
+        <section class="main-section">
           <h2>Education</h2>
 
           <!-- Copy this whole <section> block to add more schools. -->
-          <section>
+          <section class="education-item">
             <h3>Wake Tech Community College - Raleigh, NC</h3>
             <p>AAS in Advertising and Graphic Design, Fall 2022 - Present</p>
             <p>In the Advertising and Graphic Design program at Wake Tech I am learning how to create functional and compelling graphic and web design.</p>
@@ -108,18 +114,18 @@
         </section>
       <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
       <footer>
-        <h2>Let's Keep in Touch!</h2>
+          <h2>Let's Keep in Touch!</h2>
 
-        <!-- Social media and contact links. Add or remove any networks. -->
-        <ul class="socials">
-          <li><a href="mailto:acyochelson@my.waketech.edu">acyochelson@my.waketech.edu</a></li>
-          <li><a href="http://alyssayochelson.com" target="_blank">alyssayochelson.com</a></li>
-          <li><a href="https://x.com/home" target="_blank"><img src="images/logo-black.png" alt="Twitter Home Page"></a></li>
-          <li><a href="https://www.linkedin.com/hp" target="_blank"><img src="images/LI-In-Bug.png" alt="LinkedIn Home Page"></a></li>
-          <li><a href="https://www.facebook.com/home" target="_blank"><img src="images/Facebook_Logo_Primary.png" alt="Facebook Home Page"></a></li>
-        </ul>
+          <!-- Social media and contact links. Add or remove any networks. -->
+          <ul class="socials">
+            <li><a href="mailto:acyochelson@my.waketech.edu">acyochelson@my.waketech.edu</a></li>
+            <li><a href="http://alyssayochelson.com" target="_blank">alyssayochelson.com</a></li>
+            <li><a href="https://x.com/home" target="_blank"><img src="images/logo-black.png" alt="Twitter Home Page"></a></li>
+            <li><a href="https://www.linkedin.com/hp" target="_blank"><img src="images/LI-In-Bug.png" alt="LinkedIn Home Page"></a></li>
+            <li><a href="https://www.facebook.com/home" target="_blank"><img src="images/Facebook_Logo_Primary.png" alt="Facebook Home Page"></a></li>
+          </ul>
       </footer>
+      </div>  
     </main>
-  </div>
   </body>
 </html>
