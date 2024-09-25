@@ -99,10 +99,10 @@ footer a:hover {
 }
 .download-link {
     position: fixed;
-    top: 5px;
-    left: 5px;
+    top: 12px;
+    left: 6px;
     font-size: 1.4rem;
-    background-color: #369696;
+    background-color: #2b2d42;
 }
 .download-link:hover {
     color: #C5CDCF;
@@ -176,7 +176,7 @@ footer {
 nav {
     font-size: 1.6rem;
     width: 100%;
-    background-color: #2b2d42;
+    background-color: #369696;
     color: white;
     position: fixed;
 }
@@ -209,13 +209,12 @@ nav ul li ul {
 }
 nav ul li ul li {
     display: block;
-    background-color: #369696;
-    color: white;
     padding: 8px 15px;
     font-weight: 400;
+    color: white;
 }
 nav ul li ul li:hover {
-    background-color: #92d6d6;
+    background-color: #C5CDCF;
     color: #313131;
     font-weight: 400;
 }
